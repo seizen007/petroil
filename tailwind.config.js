@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'hero-banner': "url(./src/assets/banner.svg)",
+        'hero-banner': "url(./banner.svg)",
       },
       fontFamily:{
             'pops':['Poppins','Paprika','Open Sans']
