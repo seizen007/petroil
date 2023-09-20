@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="banner bg-[url('src/assets/banner.svg')] bg-no-repeat bg-cover ">
+        <div className="banner bg-[url('/banner.svg')] bg-no-repeat bg-cover">
             <div className="w-full h-full bg-black/60">
                 <div className="container">
                     <div className="banner-wrapper flex flex-wrap gap-y-10 py-[257px]  text-white w-3/4  content-center">
