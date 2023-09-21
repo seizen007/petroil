@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="banner bg-hero-banner bg-no-repeat bg-cover">
+        <div className="banner bg-hero-banner bg-no-repeat bg-cover w-full">
             <div className="w-full h-full bg-black/60 ">
                 <div className="container">
-                    <div className="banner-wrapper flex flex-wrap gap-y-10 lg:py-[257px] py-40 px-10 md:px-0 text-white w-3/4  content-center">
+                    <div className="banner-wrapper flex flex-wrap gap-y-10 lg:py-[257px] sm:py-24 md:py-32 py-20 px-10 md:px-0 text-white w-3/4  content-center">
                         <h1 className='font-pops md:text-[64px] sm:text-[44px] text-[34px] font-bold '>
                             We exist since 1975 on the oil and gas industry.
                         </h1>
