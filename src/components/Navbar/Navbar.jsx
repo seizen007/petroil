@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="navbar bg-prime">
       <div className="container">
         
-        <div className="nav-wrapper flex flex-wrap md:flex-col lg:flex-row items-center justify-between">
+        <div className="nav-wrapper flex flex-wrap md:flex-col lg:flex-row items-center justify-between md:px-0 px-10">
           <picture>
             <img className='py-6' src={images.logo} alt="" />
           </picture>
