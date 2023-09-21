@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors :{
+        prime: '#F40404',
+        sec:'#FFB800',
+
+      },
       backgroundImage:{
         'hero-banner': "url(/banner.svg)",
       },
