@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="banner bg-hero-banner bg-no-repeat bg-cover w-full">
+        <div className="banner bg-hero-banner bg-no-repeat bg-cover bg-center w-full">
             <div className="w-full h-full bg-black/60 ">
                 <div className="container">
                     <div className="banner-wrapper flex flex-wrap gap-y-10 lg:py-[257px] sm:py-24 md:py-32 py-20 px-10 md:px-0 text-white w-3/4  content-center">

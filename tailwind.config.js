@@ -19,6 +19,7 @@ export default {
       },
       container:{
         center: true,
+      
         screens : {
           DEFAULT: '100%',
           sm: '600px',

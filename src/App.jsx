@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Navbar  from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Supplier from './components/Supplier/Supplier'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Header />
     <Navbar />
     <Hero/>
+    <Supplier/>
     </>
   )
 }
