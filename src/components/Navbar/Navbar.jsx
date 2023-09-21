@@ -25,7 +25,7 @@ const Navbar = () => {
 
           }</div>
 
-          <ul className={`flex flex-col md:flex-row font-pops items-center gap-5 py-6 md:py-7 md:gap-12 lg:py-10 md:p-0 md:w-auto w-full absolute right-0 z-20  bg-prime/20 backdrop-blur-lg md:bg-none md:static duration-300  ${use ? 'top-[170px]':'top-[-250px]'}`}>
+          <ul className={`flex flex-col md:flex-row font-pops items-center gap-5 py-6 md:py-7 md:gap-12 lg:py-10 md:p-0 md:w-auto w-full absolute right-0 z-20  bg-prime/20 backdrop-blur-lg md:backdrop-blur-0 md:bg-none md:static duration-300  ${use ? 'top-[170px]':'top-[-250px]'}`}>
             <li className='nav_items hover:scale-[1.1] duration-150'><a href="#" className=' text-base text-white hover:text-yellow-200 duration-200 '>Home</a></li>
             <li className='nav_items hover:scale-[1.1] duration-150'><a href="#" className=' text-base text-white hover:text-yellow-200 duration-200 '>About</a></li>
             <li className='nav_items hover:scale-[1.1] duration-150'><a href="#" className=' text-base text-white hover:text-yellow-200 duration-200 '>Services</a></li>
