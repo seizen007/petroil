@@ -19,13 +19,13 @@ export default {
       },
       container:{
         center: true,
-      
+      padding : '2rem',
         screens : {
           DEFAULT: '100%',
-          sm: '600px',
-          md: '728px',
-          lg: '984px',
-          xl: '1144px',
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1208px',
           
         }
       
