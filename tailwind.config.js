@@ -6,31 +6,34 @@ export default {
   ],
   theme: {
     extend: {
-      colors :{
+      colors: {
         prime: '#F40404',
-        sec:'#FFB800',
+        sec: '#FFB800',
 
       },
-      backgroundImage:{
+      backgroundImage: {
         'hero-banner': "url(/banner.svg)",
       },
-      fontFamily:{
-            'pops':['Poppins','Paprika','Open Sans']
+      fontFamily: {
+        'pops': ['Poppins', 'Paprika', 'Open Sans']
       },
-      container:{
+      container: {
         center: true,
-      padding : '2rem',
-        screens : {
+        padding: '2rem',
+        screens: {
           DEFAULT: '100%',
           sm: '640px',
           md: '768px',
           lg: '1024px',
           xl: '1208px',
-          
+
         }
-      
-      }
+
+      },
+
     },
   },
+
+
   plugins: [],
 }
