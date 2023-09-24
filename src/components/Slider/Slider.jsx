@@ -5,10 +5,10 @@ import "react-alice-carousel/lib/alice-carousel.css";
 function Slider() {
 
     const prev = () => {
-        return <a className='cursor-pointer text-sm md:text-base hover:text-prime font-pops'>Prev</a>
+        return <a className=' hidden lg:block cursor-pointer text-sm md:text-base hover:text-prime font-pops'>Prev</a>
     }
     const next = () => {
-        return <a className='cursor-pointer text-sm md:text-base hover:text-prime font-pops'>Next</a>
+        return <a className='hidden lg:block cursor-pointer text-sm md:text-base hover:text-prime font-pops'>Next</a>
     }
 
 
