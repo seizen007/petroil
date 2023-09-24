@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import Navbar  from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Supplier from './components/Supplier/Supplier'
+import Slider from './components/slider/slider'
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Navbar />
     <Hero/>
     <Supplier/>
+    <Slider/>
     </>
   )
 }
