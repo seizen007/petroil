@@ -12,11 +12,11 @@ import Slider from './components/Slider/Slider'
 function App() {
   return (
     <>
-      <Header />
-      <Navbar />
-      <Hero />
-      <Supplier />
-      <Slider />
+      <Header/>
+      <Navbar/>
+      <Hero/>
+      <Supplier/>
+      <Slider/>
     </>
   )
 }
