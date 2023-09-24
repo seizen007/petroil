@@ -50,7 +50,6 @@ function Slider() {
                     </div>
 
                 </AliceCarousel>
-
             </div>
         </div>
     );
