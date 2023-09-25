@@ -16,10 +16,10 @@ const images = {
         slider3: new URL('./slider/slider3.svg', import.meta.url).href,
         slider4: new URL('./slider/slider4.svg', import.meta.url).href,
     },
-    service : {
-        modern : new URL('./service/modern.svg', import.meta.url).href,
-        national : new URL('./service/national.svg',import.meta.url).href,
-        supply : new URL('./service/supply.svg',import.meta.url).href,
+    service: {
+        modern: new URL('./service/modern.png', import.meta.url).href,
+        national: new URL('./service/national.png', import.meta.url).href,
+        supply: new URL('./service/supply.png', import.meta.url).href,
     }
 
 }
