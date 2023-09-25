@@ -3,7 +3,7 @@ import images from '../../assets/images'
 
 const Header = () => {
     return (
-        <header className=' bg-[#282828] font-pops relative z-30'>
+        <header className=' bg-[#282828] font-pops '>
             <div className="container  py-4 flex  gap-4 md:justify-between justify-evenly items-center">
                 <div className="mail-wrapper flex md:flex-row flex-col text-xs text-white md:gap-x-[27px] gap-y-1 font-normal">
                     <div className="gmail flex items-center gap-1 w-[12.5rem] border-r-[#5C6A92] md:border-r-[2px]">
@@ -35,7 +35,7 @@ const Header = () => {
                 </div>
                 
             </div>
-            <div className="border border-sec my-[1.5px]"></div>
+            <div className="bg-sec py-[1.5px] border-y-[1px] border-black"></div>
         </header>
 
     )
