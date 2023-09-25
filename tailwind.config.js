@@ -13,9 +13,9 @@ export default {
       },
       backgroundImage: {
         'hero-banner': "url(/banner.svg)",
-        modern: 'url(./service/modern.png)',
-        national: 'url(./service/national.png)',
-        supply: 'url(./service/supply.png)',
+        modern: 'url(/service/modern.png)',
+        national: 'url(/service/national.png)',
+        supply: 'url(/service/supply.png)',
 
 
       },
