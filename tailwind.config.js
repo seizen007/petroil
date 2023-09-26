@@ -16,6 +16,10 @@ export default {
         modern: 'url(/service/modern.png)',
         national: 'url(/service/national.png)',
         supply: 'url(/service/supply.png)',
+        learnMore : 'url(/learn_more.png)',
+        blog1 : 'url(/blog/blog1.png)',
+        blog2 : 'url(/blog/blog2.png)',
+        blog3 : 'url(/blog/blog3.png)',
 
 
       },

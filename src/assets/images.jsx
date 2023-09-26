@@ -20,6 +20,12 @@ const images = {
         modern: new URL('./service/modern.png', import.meta.url).href,
         national: new URL('./service/national.png', import.meta.url).href,
         supply: new URL('./service/supply.png', import.meta.url).href,
+    },
+    logos :{
+        logo1: new URL('./logos/Logo1.svg', import.meta.url).href,
+        logo2: new URL('./logos/Logo2.svg', import.meta.url).href,
+        logo3: new URL('./logos/Logo3.svg', import.meta.url).href,
+        logo4: new URL('./logos/Logo4.svg', import.meta.url).href,
     }
 
 }
