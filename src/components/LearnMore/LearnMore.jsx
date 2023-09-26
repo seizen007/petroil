@@ -13,7 +13,7 @@ const LearnMore = () => {
 
                     <div className="bg-learnMore bg-cover bg-no-repeat bg-center lg:col-start-2 lg:col-span-2 flex justify-center items-center pt-[168px] pb-[142px] ">
                         <div className="  ">
-                            <Button className={'px-[30px] py-[14px] bg-white text-prime'}>learn more</Button>
+                            <Button href={'#'} className={'px-[30px] py-[14px] bg-white text-prime'}>learn more</Button>
                         </div>
                     </div>
 

@@ -14,18 +14,18 @@ const Services = () => {
         <div className="modern bg-modern bg-no-repeat bg-center bg-cover ">
           <div className='bg-black/60 pt-[147px] pb-[139px] ps-4 sm:ps-[116px] md:pe-12 pe-4  h-full break-keep flex flex-col gap-y-4 '>
             <h3 className='text-white text-[25px] md:text-[30px] xl:text-[36px] font-bold  '>Modern natural oil and gas refineries.</h3>
-            <Button className={'xl:py-[14px] xl:px-[30px] py-2 px-4 text-white '}>learn more</Button>
+            <Button href={'#'}  className={'xl:py-[14px] xl:px-[30px] py-2 px-4 text-white '}>learn more</Button>
           </div>
         </div>
         {/* supply  */}
         <div className="supply bg-supply bg-no-repeat bg-center bg-cover">
           <div className='bg-black/60 pt-[147px] pb-[139px] ps-4 sm:ps-[116px] md:pe-12 pe-4  h-full  break-keep flex flex-col gap-y-4 '>
             <h3 className='text-white text-[25px] md:text-[30px] xl:text-[36px] font-bold  '>Supply of national industries.</h3>
-            <Button className={'xl:py-[14px] xl:px-[30px] py-2 px-4 text-white '}>learn more</Button>
+            <Button href={'#'} className={'xl:py-[14px] xl:px-[30px] py-2 px-4 text-white '}>learn more</Button>
           </div>
         {/* national  */}
         </div>
-        <div className="national bg-national bg-no-repeat bg-center bg-cover">
+        <div href={'#'} className="national bg-national bg-no-repeat bg-center bg-cover">
           <div className="bg-black/60 pt-[147px] pb-[139px] ps-4 sm:ps-[116px] md:pe-12 pe-4 h-full  break-keep flex flex-col gap-y-4  ">
             <h3 className='text-white text-[25px] md:text-[30px] xl:text-[36px] font-bold  '>National fuel distribution and supply.</h3>
             <Button className={'xl:py-[14px] xl:px-[30px] py-2 px-4 text-white '}>learn more</Button>

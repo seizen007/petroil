@@ -9,19 +9,19 @@ const Blog = () => {
                     <div className="bg-blog1 bg-no-repeat bg-cover bg-center ">
                         <div className="blog1_wrapper bg-black/60 pt-[75px] pb-[55.28px] px-[48px] flex flex-col gap-[52px]">
                             <p className='xl:text-[24px] text-[20px] text-white font-bold '>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                            <Button className={'bg-white/50 py-[10px] px-[23px] text-white '} >read more</Button>
+                            <Button href={'#'} className={'bg-white/50 py-[10px] px-[23px] text-white '} >read more</Button>
                         </div>
                     </div>
                     <div className="bg-blog2 bg-no-repeat bg-cover bg-center ">
                         <div className="blog2_wrapper bg-black/60 pt-[75px] pb-[55.28px] px-[48px] flex flex-col gap-[52px]">
                             <p className='xl:text-[24px] text-[20px] text-white font-bold '>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                            <Button className={'bg-white/50 py-[10px] px-[23px] text-white '} >read more</Button>
+                            <Button href={'#'} className={'bg-white/50 py-[10px] px-[23px] text-white '} >read more</Button>
                         </div>
                     </div>
                     <div className="bg-blog3 bg-no-repeat bg-cover bg-center ">
                         <div className="blog3_wrapper bg-black/60 pt-[75px] pb-[55.28px] px-[48px] flex flex-col gap-[52px]">
                             <p className='xl:text-[24px] text-[20px] text-white font-bold '>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                            <Button className={'bg-white/50 py-[10px] px-[23px] text-white '} >read more</Button>
+                            <Button href={'#'} className={'bg-white/50 py-[10px] px-[23px] text-white '} >read more</Button>
                         </div>
                     </div>
                     <div className="text lg:row-start-2 lg:col-start-3">
