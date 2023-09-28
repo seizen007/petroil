@@ -5,18 +5,18 @@ const Logos = () => {
     return (
         <div className="logos">
             <div className="container">
-                <div className="logos_wrapper grid lg:grid-cols-4 grid-cols-2  justify-items-center  py-[139px] gap-10 md:gap-20">
-                    <picture>
-                        <img src={images.logos.logo1} alt="" />
+                <div className="logos_wrapper grid sm:grid-cols-4  grid-cols-1 justify-items-center lg:py-[139px] sm:py-20 py-10  gap-10  sm:gap-5 lg:gap-20">
+                    <picture className='flex justify-center'>
+                        <img className='sm:w-full w-[50%]' src={images.logos.logo1} alt="" />
                     </picture>
-                    <picture>
-                        <img src={images.logos.logo2} alt="" />
+                    <picture className='flex justify-center'>
+                        <img className='sm:w-full w-[50%]' src={images.logos.logo2} alt="" />
                     </picture>
-                    <picture>
-                        <img src={images.logos.logo3} alt="" />
+                    <picture className='flex justify-center'>
+                        <img className='sm:w-full w-[50%]' src={images.logos.logo3} alt="" />
                     </picture>
-                    <picture>
-                        <img src={images.logos.logo4} alt="" />
+                    <picture className='flex justify-center'>
+                        <img className='sm:w-full w-[50%]' src={images.logos.logo4} alt="" />
                     </picture>
                 </div>
             </div>
